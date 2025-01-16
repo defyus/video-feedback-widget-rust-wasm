@@ -66,6 +66,27 @@ https://github.com/user-attachments/assets/54eac4f0-c070-4984-a6b9-65b9415aea9d
 
 ## Prerequisites
 
+### System Requirements 🛠️
+
+You'll need FFmpeg installed on your system - it's what handles all the video processing magic:
+
+- FFmpeg version 4.0 or higher
+- libx264 for video encoding
+- libmp3lame for audio encoding
+
+Quick install:
+```bash
+# On Ubuntu/Debian
+sudo apt-get update
+sudo apt-get install ffmpeg
+
+# On macOS with Homebrew
+brew install ffmpeg
+
+# On Windows with Chocolatey
+choco install ffmpeg
+```
+
 ```bash
 # Install Rust
 curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
