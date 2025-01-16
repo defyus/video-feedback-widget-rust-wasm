@@ -6,6 +6,8 @@ The application enables users to record, pause, and submit video feedback with s
 
 It serves as a example of building complex, interactive web applications in Rust while learning the language's features. While some of the dependencies and approaches may be outdated since this was something i built 5 years ago, the core concepts and learning journey remain valuable.
 
+https://github.com/user-attachments/assets/54eac4f0-c070-4984-a6b9-65b9415aea9d
+
 ## Features
 
 - **Device Management**
