@@ -1,0 +1,71 @@
+[package]
+name = "feedback_widget"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+yew = "0.19.3" 
+yew-router = "0.16"
+yew-agent = "0.1.0"
+serde = { version = "1", features = ["derive"] }
+serde_json = "1"
+log = "0.4.6"
+wasm-logger = "0.2.0"
+
+gloo-net = "0.2.3"
+gloo-utils = "0.1.4"
+futures = "0.3.21"
+wasm-bindgen = { version = "0.2", features = ["serde-serialize"] }
+wasm-bindgen-futures = "0.4.30"
+
+field_accessor = "0"
+
+chrono ={version = "0.4.19", features =["serde"]} 
+gloo-timers = "0.2.4"
+js-sys ="0.3.57"
+
+[dependencies.web-sys]
+version = "0.3.57"
+features = [
+  'Window',
+  'Headers',
+  'Request',
+  'RequestInit',
+  'RequestMode',
+  'Response',
+  'Window',
+  'HtmlDocument',
+  'HtmlFormElement',
+  'HtmlElement',
+  'HtmlInputElement',
+  'HtmlTextAreaElement',
+  'HtmlVideoElement',
+  'HtmlSelectElement',
+  'FormData',
+  'Location',
+  'Navigator',
+  'MediaDevices',
+  'MediaDeviceInfo',
+  'MediaDeviceKind',
+  'MediaStreamTrack',
+  'MediaStreamConstraints',
+  'MediaRecorder',
+  'MediaRecorderOptions',
+  'MediaStream',
+  'AudioContext',
+  'AnalyserNode',
+  'AudioParam',
+  'AudioNode',
+  'MediaStreamAudioSourceNode',
+  'VideoTrack',
+  'AudioTrack',
+  'HtmlMediaElement',
+  'BlobEvent',
+  'BlobPropertyBag',
+  'Blob',
+  'Element',
+]
+
+[serve]
+addresses = ["127.0.0.1"]  # The address to serve on.
+port = 69420
